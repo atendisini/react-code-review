@@ -10,7 +10,7 @@ function Login() {
   return (
     <div>
       <input
-        type="password"
+        type="text"
         onChange={(e) => setPassword(e.target.value)}
       />
       <button onClick={handleLogin}>Login</button>
