@@ -6,6 +6,7 @@ function Product() {
   return (
     <div>
       <input
+        type="number"
         value={price}
         onChange={(e) => setPrice(e.target.value)}
       />
