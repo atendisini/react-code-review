@@ -5,6 +5,7 @@ function Profile() {
 
   return (
     <input
+      type="email"
       value={email}
       onChange={(e) => setEmail(e.target.value)}
     />
