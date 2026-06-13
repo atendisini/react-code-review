@@ -5,6 +5,8 @@ function Cart() {
 
   return (
     <input
+      type="number"
+      min="1"
       value={quantity}
       onChange={(e) => setQuantity(e.target.value)}
     />
